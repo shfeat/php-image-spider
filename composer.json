@@ -1,0 +1,31 @@
+{
+    "name": "shfeat/php-image-spider",
+	"description": "A simple spider to download images from websites",
+    "authors": [
+        {
+            "name": "shfeat",
+            "email": "shfeat@gmail.com"
+        }
+    ],
+	"require": {
+		"shfeat/phpquery": "dev-master"
+	},
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/shfeat/phpquery"
+        }
+    ],
+	"autoload": {
+		"classmap": ["app/Libs"],
+		"files": ["app/Helpers/common.php"]
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"composer dump-autoload --optimize"
+		],
+		"post-update-cmd": [
+			"composer dump-autoload --optimize"
+		]
+	}
+}

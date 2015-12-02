@@ -1,0 +1,8 @@
+.DS_Store
+.settings/
+.project
+.buildpath
+composer.lock
+vendor/
+storage/images/*
+storage/logs/*

@@ -1,5 +1,5 @@
 # php-image-spider
-A simple spider to download images from websites.
+A simple spider to download images from imageboards/websites.
 
 ## Support sites
 - Atfield
